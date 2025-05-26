@@ -1,0 +1,19 @@
+PS C:\Users\name> cd C:\Users\name\Desktop\Samurai_kadai
+PS C:\Users\name\Desktop\Samurai_kadai> git init git_challenge
+Initialized empty Git repository in C:/Users/name/Desktop/Samurai_kadai/git_challenge/.git/
+PS C:\Users\name\Desktop\Samurai_kadai> cd git_challenge
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> git add hello_world.txt                  
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) e3f06ef] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt 
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> git commit -m "日本語訳の追記"              
+[main a7e7ac3] 日本語訳の追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> git log --oneline
+a7e7ac3 (HEAD -> main) 日本語訳の追記
+e3f06ef hello_world.txtを追加
+PS C:\Users\name\Desktop\Samurai_kadai\git_challenge> 
